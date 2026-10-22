@@ -1,19 +1,39 @@
+
 package com.pizzeria.model;
 
 public class Customer {
-    private final String name;
-    private final String phone;
 
-    public Customer(String name, String phone) {
-        this.name = name;
-        this.phone = phone;
+    private long customerId;
+    private final String fullName;
+    private final String username;
+
+    public Customer(String fullName, String username) {
+        this.fullName = fullName;
+        this.username = username;
     }
 
-    public String getName() {
-        return name;
+    public long getCustomerId() {
+        return customerId;
     }
 
-    public String getPhone() {
-        return phone;
+    public void setCustomerId(long customerId) {
+        this.customerId = customerId;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "customerId=" + customerId +
+                ", fullName='" + fullName + '\'' +
+                ", username='" + username + '\'' +
+                '}';
     }
 }

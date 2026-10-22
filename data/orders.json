@@ -1,0 +1,29 @@
+[
+    {
+        "pizzas": [{
+            "quantity": 789,
+            "price": 7.88,
+            "name": "Pasta"
+        }],
+        "orderId": 1,
+        "customerId": 1
+    },
+    {
+        "pizzas": [{
+            "quantity": 7,
+            "price": 7.85,
+            "name": "tashir"
+        }],
+        "orderId": 2,
+        "customerId": 1
+    },
+    {
+        "pizzas": [{
+            "quantity": 9,
+            "price": 1.45,
+            "name": "Tashir"
+        }],
+        "orderId": 3,
+        "customerId": 2
+    }
+]
